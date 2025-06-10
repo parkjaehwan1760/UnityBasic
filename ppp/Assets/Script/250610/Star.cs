@@ -61,7 +61,9 @@ public class Star : MonoBehaviour
             //    예: height=5, i=4: 공백 1개
             //    예: height=5, i=1 (마지막 줄): 공백 4개
             star += new string(' ', height - i);
-
+        }
+        for (int i = 1; i <= height; i++) // i는 현재 줄의 별 개수 (1부터 height까지 증가)
+        { 
             // 2. 별 추가: i 만큼 별을 추가
             star += new string('★', i);
 
