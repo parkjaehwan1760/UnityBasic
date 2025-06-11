@@ -757,7 +757,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1547218842}
         m_TargetAssemblyTypeName: Star, Assembly-CSharp
-        m_MethodName: Phase5
+        m_MethodName: Phase2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
